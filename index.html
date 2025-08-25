@@ -3,11 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite App</title>
   </head>
+
   <body>
-    <div id="app"></div>
+    <header class="panel">
+      <h1 class="logo">KARAGANOV</h1>
+      <nav class="panel-nav">
+        <a class="panel-nav__link" href="#">Главная</a>
+        <a class="panel-nav__link" href="#">Работы</a>
+        <a class="panel-nav__link" href="#">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="content" id="app"></div>
+    </main>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

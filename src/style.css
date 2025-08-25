@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px red; */
+}
+
+html, body {
+    height: 100%;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 100px;
+    height: auto;
+    /* overflow-y: hidden; */
+    /* height: 100%; */
+}
+
+.panel {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 24px;
+}
+
+.logo {
+    width: 210px;
+    max-height: 100%;
+    line-height: 110%;
+    letter-spacing: -5%;
+    font-family: "Kumar One", serif;
+    font-size: 24px;
+}
+
+.panel-nav { 
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+}
+
+.panel-nav__link {
+    width: 176px;
+    max-height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    gap: 40px;
+    align-self: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    gap: 40px;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    letter-spacing: -6%;
+    line-height: 116%;
+}
+
+.portrait {
+    max-width: 620px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-specialization {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.about-specialization__item {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+t, li {
+    font-size: 32px;
+}
+
+li {
+    border-bottom: 1px solid black;
+}
+
+/* .about-stack {
+
+} */
+
+.about-stack__title {
+    display: flex;
+    flex-direction: row;
+}
